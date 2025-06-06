@@ -26,6 +26,7 @@ import { ScatterPlot } from "./visualizations/ScatterPlot";
 import { SmartScalar } from "./visualizations/SmartScalar";
 import Table from "./visualizations/Table/Table";
 import { Text } from "./visualizations/Text";
+import { WaffleChart } from "./visualizations/WaffleChart";
 import { WaterfallChart } from "./visualizations/WaterfallChart";
 
 export default function () {
@@ -47,6 +48,7 @@ export default function () {
   registerVisualization(ObjectDetail);
   registerVisualization(PivotTable);
   registerVisualization(SankeyChart);
+  registerVisualization(WaffleChart);
 
   registerVisualization(ActionViz);
   registerVisualization(DashCardPlaceholder);
